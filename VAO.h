@@ -12,8 +12,8 @@ public:
 	// Constructor that generates a VAO ID
 	VAO();
 
-	// Links a VBO to the VAO using a certain Layout
-	void LinkVBO(VBO VBO, GLuint layout);
+	// Links a VBO attribute such as a position or colour to the VAO
+	void LinkAttrib(VBO& VBO, GLuint layout, GLuint numComponents, GLenum type, GLsizeiptr stride, void* offset);
 	// Binds the VAO
 	void Bind();
 	// Unbinds the VAO
