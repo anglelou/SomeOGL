@@ -19,6 +19,9 @@
     <Filter Include="Resource Files\Textures">
       <UniqueIdentifier>{9824ad5d-9cb5-46e8-a05d-ee1e62bff52b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\models">
+      <UniqueIdentifier>{a626c7dc-bdbf-47a3-b61a-66ca6109f5e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -48,6 +51,12 @@
     <ClCompile Include="Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="default.frag">
@@ -61,6 +70,12 @@
     </None>
     <None Include="light.frag">
       <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="scene.bin">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="scene.gltf">
+      <Filter>Resource Files\models</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -82,10 +97,22 @@
     <ClInclude Include="Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\Misc Photos\brick.png">
       <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="baseColor.png">
+      <Filter>Resource Files\models</Filter>
+    </Image>
+    <Image Include="metallicRoughness.png">
+      <Filter>Resource Files\models</Filter>
     </Image>
   </ItemGroup>
 </Project>
