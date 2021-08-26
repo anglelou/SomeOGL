@@ -1,3 +1,5 @@
+#include<filesystem>
+
 #include"Model.h"
 
 
@@ -7,6 +9,7 @@ const unsigned int height = 800;
 
 int main()
 {
+	std::cout << "Current path is " << std::filesystem::current_path() << '\n';
 	// Initialize GLFW
 	glfwInit();
 
@@ -65,7 +68,7 @@ int main()
 
 
 	// Load in a model (bunny)
-	Model model("models/scene.gltf");
+	Model model("models/bunny/scene.gltf");
 
 	// Main while loop
 	while (!glfwWindowShouldClose(window))

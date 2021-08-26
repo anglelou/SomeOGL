@@ -22,6 +22,9 @@
     <Filter Include="Resource Files\models">
       <UniqueIdentifier>{a626c7dc-bdbf-47a3-b61a-66ca6109f5e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\models\bunny">
+      <UniqueIdentifier>{93a61d00-2a9c-42e3-b074-975b9d4ed86b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -42,7 +45,7 @@
     <ClCompile Include="VAO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EBOcpp.cpp">
+    <ClCompile Include="EBO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Texture.cpp">
@@ -72,10 +75,10 @@
       <Filter>Resource Files\Shaders</Filter>
     </None>
     <None Include="scene.bin">
-      <Filter>Resource Files\models</Filter>
+      <Filter>Resource Files\models\bunny</Filter>
     </None>
     <None Include="scene.gltf">
-      <Filter>Resource Files\models</Filter>
+      <Filter>Resource Files\models\bunny</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -109,10 +112,10 @@
       <Filter>Resource Files\Textures</Filter>
     </Image>
     <Image Include="baseColor.png">
-      <Filter>Resource Files\models</Filter>
+      <Filter>Resource Files\models\bunny</Filter>
     </Image>
     <Image Include="metallicRoughness.png">
-      <Filter>Resource Files\models</Filter>
+      <Filter>Resource Files\models\bunny</Filter>
     </Image>
   </ItemGroup>
 </Project>
