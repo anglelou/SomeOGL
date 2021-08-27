@@ -62,10 +62,10 @@
     <None Include="default.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-    <None Include="light.vert">
+    <None Include="skybox.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-    <None Include="light.frag">
+    <None Include="skybox.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
   </ItemGroup>
